@@ -4,11 +4,11 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-  steps:
-  - script: echo "Online Quiz System Build Successful!"
-    displayName: 'Run Build Check'
+steps:
+- script: echo "Online Quiz System Build Successful!"
+  displayName: 'Run Build Check'
 
-    - script: |
-        echo "Checking project files..."
-            ls
-              displayName: 'List Project Files'
+- script: |
+    echo "Checking project files..."
+    ls
+  displayName: 'List Project Files'
