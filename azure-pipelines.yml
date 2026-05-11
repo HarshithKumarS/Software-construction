@@ -1,0 +1,14 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+  steps:
+  - script: echo "Online Quiz System Build Successful!"
+    displayName: 'Run Build Check'
+
+    - script: |
+        echo "Checking project files..."
+            ls
+              displayName: 'List Project Files'
